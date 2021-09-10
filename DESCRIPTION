@@ -7,6 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "dankhanh.nguyen@students.mq.edu.au")
 Description: We all deserve a little encouragement sometime to keep us going (Plus Ultra!). this package aim to deliver a little praise whenever you need them. 
+Yey!!!!!!
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
