@@ -116,3 +116,26 @@ usethis::use_data()
 
 usethis::use_data_raw()
 # save code to set up data
+
+# Version Control with Github________________________________________________
+library(devtools)
+usethis::use_git_config(user.name = "Kate Nguyen",
+                        user.email = "dankhanh.nguyen@students.mq.edu.au")
+
+usethis::create_github_token()
+# generate a Personal Access Token (PAT)
+
+library(gitcreds)
+gitcreds::gitcreds_set()
+# use the PAT to set credentials with R
+
+gh::gh_whoami() #or
+usethis::git_sitrep()
+# to check all is well
+
+usethis::use_git()
+
+usethis::use_github()
+
+usethis::git_vaccinate()
+# automate ignoring personal files that you don't want to publish on git
