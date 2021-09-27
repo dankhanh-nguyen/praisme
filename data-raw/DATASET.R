@@ -112,6 +112,7 @@ devtools::test() #Ctrl+Shift+T
 devtools::test_coverage()
 
 usethis::use_data()
+# save package data in correct format
 
 usethis::use_data_raw()
 # save code to set up data
